@@ -77,7 +77,7 @@ For updates, releases, and information:
 📧 **[contact@ntxm.org](mailto:contact@ntxm.org)**
 
 ---
-Download for Windows : https://github.com/techxcelerate/python-desktop-compiler/releases/
+### Download for Windows : https://github.com/techxcelerate/python-desktop-compiler/releases/
 ---
 
 # 📦 Release Description — v0.1.0
