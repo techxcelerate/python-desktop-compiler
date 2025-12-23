@@ -31,8 +31,6 @@ TechXcelerate Python Desktop Compiler currently has **two releases**, each desig
 
 👉 **Best for absolute beginners**
 
-This is the **first public release**, designed to help new learners start Python without distractions.
-
 ### Features in v0.1.0
 
 * ✅ Single Python file editor
@@ -45,78 +43,142 @@ This is the **first public release**, designed to help new learners start Python
 ### Limitations in v0.1.0
 
 * ❌ No file/folder directory structure
-* ❌ Only **one file** supported at a time
+* ❌ Only **one file** supported
 * ❌ No terminal
 * ❌ No pip or package installation
-* ❌ `ModuleNotFoundError` cannot be fixed inside the app - (switch to v0.1.1)
+* ❌ `ModuleNotFoundError` cannot be fixed inside the app
+  👉 **Upgrade to v0.1.1**
 
-### Recommended if:
-
-* You are **new to Python**
-* You are learning basics (variables, loops, functions, OOP)
-* You want the **simplest possible editor**
-
-🔗 **Download v0.1.0**
+🔗 Download v0.1.0
 [https://github.com/techxcelerate/python-desktop-compiler/releases/tag/v0.1.0](https://github.com/techxcelerate/python-desktop-compiler/releases/tag/v0.1.0)
 
 ---
 
-## 🔵 v0.1.1 — Advanced Beginner / Learning Upgrade
+## 🔵 v0.1.1 — Advanced Beginner / Learning Upgrade (Recommended)
 
-👉 **Recommended for most users**
-
-This release expands the editor into a **complete beginner-friendly Python workspace**.
+This version turns the app into a **complete beginner-friendly Python workspace**.
 
 ### New Features in v0.1.1
 
-* 🖥️ **Integrated Terminal**
+* 🖥️ Integrated Terminal
+* 📦 pip Package Management
+* 📁 File System Support
+* 🤖 AI Chat with Multi-File Upload
 
-  * Run Python & pip commands
-  * Command history
-  * Resizable terminal panel
-
-* 📦 **pip Package Management**
-
-  * Install packages inside embedded Python
-  * No system Python or PATH needed
-  * Packages available instantly
-
-* 📁 **File System Support**
-
-  * Open and manage multiple files
-  * Work with folders and projects
-
-* 🤖 **AI Chat – Multi-File Upload**
-
-  * Upload multiple files to AI chat
-  * Ask questions about your codebase
-  * Better debugging & explanations
-
-### v0.1.1 Solves v0.1.0 Limitations
-
-* ✅ Fix `ModuleNotFoundError` using pip
-* ✅ Multi-file projects supported
-* ✅ Real terminal access
-* ✅ Better AI assistance
-
-### Recommended if:
-
-* You get **module not found** errors
-* You want to install libraries like `requests`, `numpy`, etc.
-* You want file-based projects
-* You want a more powerful learning workflow
-
-🔗 **Download v0.1.1 (Recommended)**
+🔗 Download v0.1.1
 [https://github.com/techxcelerate/python-desktop-compiler/releases/tag/v0.1.1](https://github.com/techxcelerate/python-desktop-compiler/releases/tag/v0.1.1)
+
+---
+
+## 🖥️ How to Use the Integrated Terminal (v0.1.1)
+
+The terminal is built **directly into the app** and uses the **embedded Python**, not your system Python.
+
+### 📍 Opening the Terminal
+
+* Open the app
+* Press **`Ctrl + ``**
+  **OR**
+* Use the **Terminal toggle button** in the UI
+
+The terminal appears at the **bottom of the editor** and is **resizable**.
+
+---
+
+## 📦 Installing Python Packages (pip)
+
+All packages are installed into the app’s **embedded Python environment**.
+
+### Install a Package
+
+```bash
+pip install requests
+```
+
+### Install Multiple Packages
+
+```bash
+pip install numpy pandas matplotlib
+```
+
+### Install a Specific Version
+
+```bash
+pip install flask==2.0.1
+```
+
+### Upgrade a Package
+
+```bash
+pip install --upgrade setuptools
+```
+
+---
+
+## 🧾 Managing Installed Packages
+
+```bash
+pip list
+pip show requests
+pip uninstall numpy
+```
+
+Installed packages are **immediately usable** in the editor.
+
+---
+
+## 🐍 Python Commands in Terminal
+
+```bash
+python --version
+python -m pip --version
+python -c "print('Hello from terminal')"
+```
+
+---
+
+## 🎓 Example Workflow
+
+```bash
+# 1. Open terminal
+pip --version
+
+# 2. Install a package
+pip install requests
+
+# 3. Write code in editor
+import requests
+response = requests.get("https://api.github.com")
+print(response.status_code)
+
+# 4. Run the code – works instantly ✅
+```
+
+---
+
+## 💡 Why the Terminal Matters
+
+### For Users
+
+* ✅ No manual Python setup
+* ✅ Fix `ModuleNotFoundError` easily
+* ✅ Install libraries with one command
+* ✅ Command history included
+
+### For Developers & Learners
+
+* ✅ Uses embedded Python only
+* ✅ No PATH or environment variables
+* ✅ Same behavior in dev & production builds
 
 ---
 
 ## 🧠 Upgrade Advice
 
-> If you start with **v0.1.0** and later feel limited —
-> **upgrade to v0.1.1** for terminal, pip, file system, and AI improvements.
+> Start with **v0.1.0** if you are brand new.
+> Upgrade to **v0.1.1** when you need packages, projects, or terminal access.
 
-No learning is lost. Your skills grow — the tool grows with you.
+Your learning stays simple — the tool grows with you.
 
 ---
 
@@ -125,8 +187,8 @@ No learning is lost. Your skills grow — the tool grows with you.
 * 👶 Python beginners
 * 🎓 Students & learners
 * 🧑‍🏫 Teachers & classrooms
-* 🚀 Users who want Python **without installing Python**
-* 💡 Anyone who prefers simple desktop tools over heavy IDEs
+* 🚀 Users who don’t want to install Python
+* 💡 Anyone avoiding heavy IDEs
 
 ---
 
@@ -134,8 +196,8 @@ No learning is lost. Your skills grow — the tool grows with you.
 
 * ❌ No Python installation
 * ❌ No pip setup
-* ❌ No environment variables
 * ❌ No virtual environments
+* ❌ No configuration headaches
 
 Just **install → open → code → run**.
 
@@ -143,9 +205,7 @@ Just **install → open → code → run**.
 
 ## 📦 Part of the TechXcelerate Ecosystem
 
-TechXcelerate Python Desktop Compiler is one of several tools under **TechXcelerate**, an initiative by **NTXM** focused on building **simple, fast, and accessible desktop tools** for learning and productivity.
-
-More tools are planned.
+TechXcelerate Python Desktop Compiler is part of **TechXcelerate**, an initiative by **NTXM** to build **simple, fast, and practical desktop tools** for learning and productivity.
 
 ---
 
@@ -154,13 +214,7 @@ More tools are planned.
 This project is **proprietary software**.
 All rights reserved © NTXM.
 
-Unauthorized redistribution, modification, or commercial use without permission is strictly prohibited.
-
----
-
-## 🌐 About NTXM
-
-**NTXM** builds lightweight, practical software focused on usability, performance, and real-world learning needs.
+Unauthorized redistribution or modification is strictly prohibited.
 
 ---
 
