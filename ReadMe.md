@@ -1,6 +1,6 @@
-# 🧠 TechXcelerate Python Desktop Compiler
+# 🧠 TechXcelerate Python Editor
 
-**TechXcelerate Python Desktop Compiler** is a **beginner-friendly, lightweight desktop application** that lets you write, run, and test Python code instantly — **without installing Python, pip, or setting up anything**.
+**TechXcelerate Python Editor** is a **beginner-friendly, lightweight desktop application** that lets you write, run, and test Python code instantly — **without installing Python, pip, or setting up anything**.
 
 It is built for **students, beginners, and learners** who want a clean and simple Python experience without heavy IDEs or complex environment configuration.
 
